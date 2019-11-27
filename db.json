@@ -51,7 +51,7 @@
 		"id": "e0003",
 		"type": "",
 		"description": "Uber to the movies",
-		"amount": "200",
+		"amount": "50",
 		"date": "24-NOV-2019",
 		"paidBy": "p3",
 		"split":"yes",
@@ -59,12 +59,12 @@
 			{
 				"pid": "p3",
 				"splitType": "percent",
-				"split": "20"
+				"split": "50"
 			},
 			{
 				"pid": "p2",
 				"splitType": "percent",
-				"split": "80"
+				"split": "50"
 			}
 		]
 	},
@@ -161,24 +161,24 @@
 [
 	{
 		"id": "p1",
-		"outOfPocket":"500",
-		"shareOfExpenses":"300",
-		"receive":"200",
+		"outOfPocket":"2570",
+		"shareOfExpenses":"941",
+		"receive":"1500",
 		"hasToPay":"0"
 	},
 	{
 		"id": "p2",
 		"outOfPocket":"50",
-		"shareOfExpenses":"30",
-		"receive":"20",
-		"hasToPay":"50"
+		"shareOfExpenses":"919",
+		"receive":"0",
+		"hasToPay":"869"
 	},	
 	{
 		"id": "p3",
-		"outOfPocket":"50",
-		"shareOfExpenses":"30",
-		"receive":"20",
-		"hasToPay":"50"
+		"outOfPocket":"300",
+		"shareOfExpenses":"910",
+		"receive":"0",
+		"hasToPay":"610"
 	}
 ]
 }
