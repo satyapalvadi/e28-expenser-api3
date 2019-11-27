@@ -1,4 +1,4 @@
-	{
+{
 	"expenses": [
 	{
 		"id": "e0001",
@@ -52,7 +52,7 @@
 		"type": "",
 		"description": "Uber to the movies",
 		"amount": "200",
-		"date": "19-NOV-2019",
+		"date": "24-NOV-2019",
 		"paidBy": "p3",
 		"split":"yes",
 		"splitters":[
@@ -73,8 +73,34 @@
 		"type": "",
 		"description": "Movie tkts to Frozen2",
 		"amount": "100",
-		"date": "19-NOV-2019",
+		"date": "24-NOV-2019",
 		"paidBy": "p3",
+		"split":"yes",
+		"splitters":[
+			{
+				"pid": "p1",
+				"splitType": "percent",
+				"split": "33"
+			},
+			{
+				"pid": "p2",
+				"splitType": "percent",
+				"split": "33"
+			},
+			{
+				"pid": "p3",
+				"splitType": "percent",
+				"split": "34"
+			}
+		]
+	},
+	{
+		"id": "e0005",
+		"type": "",
+		"description": "Rent payment for November",
+		"amount": "2000",
+		"date": "01-DEC-2019",
+		"paidBy": "p1",
 		"split":"yes",
 		"splitters":[
 			{
