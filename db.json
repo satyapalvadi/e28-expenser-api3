@@ -1,0 +1,158 @@
+	{
+	"expenses": [
+	{
+		"id": "e0001",
+		"type": "",
+		"description": "Shopping at the Mall",
+		"amount": "570",
+		"date": "10-NOV-2019",
+		"paidBy": "p1",
+		"split":"yes",
+		"splitters":[
+			{
+				"pid": "p1",
+				"splitType": "percent",
+				"split": "40"
+			},
+			{
+				"pid": "p2",
+				"splitType": "percent",
+				"split": "30"
+			},
+						{
+				"pid": "p3",
+				"splitType": "percent",
+				"split": "30"
+			}
+		]
+	},
+	{
+		"id": "e0002",
+		"type": "",
+		"description": "Dinner at Legal Seafoods",
+		"amount": "50",
+		"date": "15-NOV-2019",
+		"paidBy": "p2",
+		"split":"yes",
+		"splitters":[
+			{
+				"pid": "p1",
+				"splitType": "percent",
+				"split": "40"
+			},
+			{
+				"pid": "p2",
+				"splitType": "percent",
+				"split": "60"
+			}
+		]
+	},
+	{
+		"id": "e0003",
+		"type": "",
+		"description": "Uber to the movies",
+		"amount": "200",
+		"date": "19-NOV-2019",
+		"paidBy": "p3",
+		"split":"yes",
+		"splitters":[
+			{
+				"pid": "p3",
+				"splitType": "percent",
+				"split": "20"
+			},
+			{
+				"pid": "p2",
+				"splitType": "percent",
+				"split": "80"
+			}
+		]
+	},
+	{
+		"id": "e0004",
+		"type": "",
+		"description": "Movie tkts to Frozen2",
+		"amount": "100",
+		"date": "19-NOV-2019",
+		"paidBy": "p3",
+		"split":"yes",
+		"splitters":[
+			{
+				"pid": "p1",
+				"splitType": "percent",
+				"split": "33"
+			},
+			{
+				"pid": "p2",
+				"splitType": "percent",
+				"split": "33"
+			},
+			{
+				"pid": "p3",
+				"splitType": "percent",
+				"split": "34"
+			}
+		]
+	}
+],
+
+"persons":[
+	{
+		"id":"p1",
+		"name":"Satya",
+		"email":"",
+		"mobile":""
+	},
+	{
+		"id":"p2",
+		"name":"Sushma",
+		"email":"",
+		"mobile":""
+	},
+	{
+		"id":"p3",
+		"name":"Aneesh",
+		"email":"",
+		"mobile":""
+	}
+],
+
+"groups":[
+	{
+		"id": "g1",
+		"name": "Work",
+		"type": "",
+		"members": ["p1", "p2"]
+	}
+],
+
+"runExpensesFor": 
+{ 
+	"id": "p1"
+},
+
+"personResponsibilities":
+[
+	{
+		"id": "p1",
+		"outOfPocket":"500",
+		"shareOfExpenses":"300",
+		"receive":"200",
+		"hasToPay":"0"
+	},
+	{
+		"id": "p2",
+		"outOfPocket":"50",
+		"shareOfExpenses":"30",
+		"receive":"20",
+		"hasToPay":"50"
+	},	
+	{
+		"id": "p3",
+		"outOfPocket":"50",
+		"shareOfExpenses":"30",
+		"receive":"20",
+		"hasToPay":"50"
+	}
+]
+}
